@@ -12,7 +12,7 @@ struct ListNode{
 
 //Print the List with "->" between values
 //head:a pointer pointing at the first ListNode 
-void PrintList(ListNode *head) {
+void PrintList(ListNode *head){
 	for (; head != nullptr; head = head->next) {
 		cout << head->value;
 		if (head -> next != nullptr)
